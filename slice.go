@@ -44,4 +44,10 @@ func main() {
 
 	fmt.Println(len(slice1))
 	fmt.Println(cap(slice1))
+
+	iniArray := [5]int{1,2,3,4,5}
+	iniSlice := []int{1,2,3,4,5}
+
+	fmt.Println(iniArray);
+	fmt.Println(iniSlice);
 }
